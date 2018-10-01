@@ -1,0 +1,7 @@
+
+https://reactjs.org/docs/getting-started.html
+https://www.freetutorials.us/react-16-the-complete-guide-incl-react-router-4-redux-2/
+https://nodejs.org/en/docs/
+https://www.javascript.com/learn/strings
+https://www.w3schools.com/js/
+
