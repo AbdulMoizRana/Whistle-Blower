@@ -1,0 +1,118 @@
+namespace org.whistle.blower
+
+asset Case identified by caseId {
+  o String caseId
+  o String caseTitle
+  o String caseDescription
+  o CaseCategory category
+  o String city
+  o String area
+  o String address
+  o String[] anye optional
+  o CaseStatus status default="NOTHING_YET"
+  o addEvidenceToCase[] all optional
+  --> Customer customer optional
+  --> Organization assignTo optional
+}
+
+enum CaseStatus {
+  o NOTHING_YET
+  o PENDING
+  o IN_PROGRESS
+  o COMPLETED
+  o REJECTED
+  o REWARDED
+}
+
+asset Evidence identified by evedenceId {
+  o String evedenceId
+  o String upload optional
+  o String download optional
+  --> Customer customer optional
+  --> Case cases optional
+}
+
+enum CaseCategory {
+  o RAPE
+  o ASSAULT
+  o ROBBERY
+  o MURDER
+  o BRIBE
+  o CHILD_ABUSE
+  o PROPERTY
+  o TAX_ROBBERY
+  o ELECTRICITY
+  o CYBERCRIME
+  o OTHER
+}
+
+abstract participant User identified by usrId {
+  o String usrId
+  o String walletId
+  o String password
+  o String accountBalance optional
+}
+
+participant Customer extends User {
+
+}
+
+participant Organization extends User {
+  o String email
+  o String city
+  o String area
+  o TypeDepartment department optional
+  o assignCase[] assignedCases optional
+
+  --> Case cases optional
+}
+
+participant Admin identified by adminId {
+  o String adminId
+  o String username
+  o String password
+  o String email
+  --> Organization user optional
+  --> Case cases optional
+}
+
+enum TypeDepartment {
+  o POLICE
+  o PMI
+  o FIA
+  o ISI
+  o ARMY
+}
+
+transaction statusPending {
+  --> Case cases
+}
+
+transaction statusInProgress {
+  --> Case cases
+}
+
+transaction statusRejected {
+  --> Case cases
+}
+
+transaction statusCompleted {
+  --> Case cases
+}
+
+transaction statusRewarded {
+  --> Case cases
+}
+
+transaction assignCase {
+  --> Case cases optional
+  --> Organization org optional
+  --> Admin admin optional
+}
+
+transaction addEvidenceToCase{
+  --> Case cases
+  --> Evidence evid
+}
+  
+
