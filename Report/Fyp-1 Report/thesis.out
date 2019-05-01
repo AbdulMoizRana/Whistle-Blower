@@ -1,0 +1,76 @@
+\BOOKMARK [0][]{chapter.1}{1 Preliminaries and Introduction}{}% 1
+\BOOKMARK [1][]{section.1.1}{1.1 Introduction}{chapter.1}% 2
+\BOOKMARK [2][]{subsection.1.1.1}{1.1.1 Cases}{section.1.1}% 3
+\BOOKMARK [2][]{subsection.1.1.2}{1.1.2 Corruption Sub Categories Include}{section.1.1}% 4
+\BOOKMARK [3][]{subsubsection.1.1.2.1}{1.1.2.1 Conflict Of Interest}{subsection.1.1.2}% 5
+\BOOKMARK [3][]{subsubsection.1.1.2.2}{1.1.2.2 Bribery}{subsection.1.1.2}% 6
+\BOOKMARK [3][]{subsubsection.1.1.2.3}{1.1.2.3 Fraud}{subsection.1.1.2}% 7
+\BOOKMARK [3][]{subsubsection.1.1.2.4}{1.1.2.4 Abuse of Office}{subsection.1.1.2}% 8
+\BOOKMARK [3][]{subsubsection.1.1.2.5}{1.1.2.5 Land Grabbing}{subsection.1.1.2}% 9
+\BOOKMARK [3][]{subsubsection.1.1.2.6}{1.1.2.6 Breach of Trust}{subsection.1.1.2}% 10
+\BOOKMARK [2][]{subsection.1.1.3}{1.1.3 Selected Use Cases of Application}{section.1.1}% 11
+\BOOKMARK [3][]{subsubsection.1.1.3.1}{1.1.3.1 Registration of Whistle-Blower}{subsection.1.1.3}% 12
+\BOOKMARK [3][]{subsubsection.1.1.3.2}{1.1.3.2 Registration of Police Officer}{subsection.1.1.3}% 13
+\BOOKMARK [3][]{subsubsection.1.1.3.3}{1.1.3.3 Submission of Evidence/Case by Whistle-Blower/ Police Officer}{subsection.1.1.3}% 14
+\BOOKMARK [3][]{subsubsection.1.1.3.4}{1.1.3.4 Agency/Judge monitoring them both}{subsection.1.1.3}% 15
+\BOOKMARK [3][]{subsubsection.1.1.3.5}{1.1.3.5 Pending Cases}{subsection.1.1.3}% 16
+\BOOKMARK [3][]{subsubsection.1.1.3.6}{1.1.3.6 A Reward System}{subsection.1.1.3}% 17
+\BOOKMARK [2][]{subsection.1.1.4}{1.1.4 How This will solve the problem through use of the blockchain}{section.1.1}% 18
+\BOOKMARK [0][]{chapter.2}{2 Blockchain}{}% 19
+\BOOKMARK [1][]{section.2.1}{2.1 What is Blockchain}{chapter.2}% 20
+\BOOKMARK [1][]{section.2.2}{2.2 Why Blockchain}{chapter.2}% 21
+\BOOKMARK [2][]{subsection.2.2.1}{2.2.1 Hyperledger }{section.2.2}% 22
+\BOOKMARK [2][]{subsection.2.2.2}{2.2.2 Introduction Business Blockchain}{section.2.2}% 23
+\BOOKMARK [2][]{subsection.2.2.3}{2.2.3 Hyperledger Fabric }{section.2.2}% 24
+\BOOKMARK [1][]{section.2.3}{2.3 Hyperledger and Our Application }{chapter.2}% 25
+\BOOKMARK [2][]{subsection.2.3.1}{2.3.1 Hyperledger Composer}{section.2.3}% 26
+\BOOKMARK [2][]{subsection.2.3.2}{2.3.2 IBM Cloud }{section.2.3}% 27
+\BOOKMARK [2][]{subsection.2.3.3}{2.3.3 Hyperledger Fabric}{section.2.3}% 28
+\BOOKMARK [0][]{chapter.3}{3 Interaction with Application }{}% 29
+\BOOKMARK [1][]{section.3.1}{3.1 Workflow of few Use Cases Together }{chapter.3}% 30
+\BOOKMARK [2][]{subsection.3.1.1}{3.1.1 Use Cases}{section.3.1}% 31
+\BOOKMARK [3][]{subsubsection.3.1.1.1}{3.1.1.1 Web Interface}{subsection.3.1.1}% 32
+\BOOKMARK [3][]{subsubsection.3.1.1.2}{3.1.1.2 Register a Whistle Blower}{subsection.3.1.1}% 33
+\BOOKMARK [3][]{subsubsection.3.1.1.3}{3.1.1.3 Discuss with Police}{subsection.3.1.1}% 34
+\BOOKMARK [3][]{subsubsection.3.1.1.4}{3.1.1.4 Agency/Judge}{subsection.3.1.1}% 35
+\BOOKMARK [3][]{subsubsection.3.1.1.5}{3.1.1.5 Blockchain Backend Working}{subsection.3.1.1}% 36
+\BOOKMARK [0][]{chapter.4}{4 Installation And Configuration }{}% 37
+\BOOKMARK [1][]{section.4.1}{4.1 Installation}{chapter.4}% 38
+\BOOKMARK [2][]{subsection.4.1.1}{4.1.1 Pre-Requisites}{section.4.1}% 39
+\BOOKMARK [2][]{subsection.4.1.2}{4.1.2 Editor}{section.4.1}% 40
+\BOOKMARK [1][]{section.4.2}{4.2 Installing Development Environment}{chapter.4}% 41
+\BOOKMARK [2][]{subsection.4.2.1}{4.2.1 Installing Command Line Tools}{section.4.2}% 42
+\BOOKMARK [2][]{subsection.4.2.2}{4.2.2 Installing Playground}{section.4.2}% 43
+\BOOKMARK [2][]{subsection.4.2.3}{4.2.3 Downloading Fabric}{section.4.2}% 44
+\BOOKMARK [1][]{section.4.3}{4.3 Deployment of Composer}{chapter.4}% 45
+\BOOKMARK [2][]{subsection.4.3.1}{4.3.1 Adding Model File}{section.4.3}% 46
+\BOOKMARK [2][]{subsection.4.3.2}{4.3.2 Adding your Logic File}{section.4.3}% 47
+\BOOKMARK [1][]{section.4.4}{4.4 Deployment of business network}{chapter.4}% 48
+\BOOKMARK [2][]{subsection.4.4.1}{4.4.1 Creating business network structure}{section.4.4}% 49
+\BOOKMARK [2][]{subsection.4.4.2}{4.4.2 Generating business network archive}{section.4.4}% 50
+\BOOKMARK [2][]{subsection.4.4.3}{4.4.3 Installing business network}{section.4.4}% 51
+\BOOKMARK [2][]{subsection.4.4.4}{4.4.4 Starting business network}{section.4.4}% 52
+\BOOKMARK [2][]{subsection.4.4.5}{4.4.5 Importing network administrator card}{section.4.4}% 53
+\BOOKMARK [1][]{section.4.5}{4.5 Genrating rest server}{chapter.4}% 54
+\BOOKMARK [0][]{chapter.5}{5 InterPlanetary File System }{}% 55
+\BOOKMARK [1][]{section.5.1}{5.1 IPFS Working}{chapter.5}% 56
+\BOOKMARK [1][]{section.5.2}{5.2 Installation}{chapter.5}% 57
+\BOOKMARK [2][]{subsection.5.2.1}{5.2.1 Install IPFS}{section.5.2}% 58
+\BOOKMARK [2][]{subsection.5.2.2}{5.2.2 Editor}{section.5.2}% 59
+\BOOKMARK [1][]{section.5.3}{5.3 IPFS Update}{chapter.5}% 60
+\BOOKMARK [2][]{subsection.5.3.1}{5.3.1 Installing with IPFS-Update}{section.5.3}% 61
+\BOOKMARK [1][]{section.5.4}{5.4 IPFS Repository}{chapter.5}% 62
+\BOOKMARK [2][]{subsection.5.4.1}{5.4.1 Initialize the repository}{section.5.4}% 63
+\BOOKMARK [0][]{chapter.6}{6 Reward System }{}% 64
+\BOOKMARK [1][]{section.6.1}{6.1 Ethereum}{chapter.6}% 65
+\BOOKMARK [2][]{subsection.6.1.1}{6.1.1 Ethereum VS Bitcoin}{section.6.1}% 66
+\BOOKMARK [2][]{subsection.6.1.2}{6.1.2 Ethereum Working}{section.6.1}% 67
+\BOOKMARK [2][]{subsection.6.1.3}{6.1.3 Smart Contract In Ethereum}{section.6.1}% 68
+\BOOKMARK [1][]{section.6.2}{6.2 Ethereum Installation and Integration}{chapter.6}% 69
+\BOOKMARK [2][]{subsection.6.2.1}{6.2.1 Background}{section.6.2}% 70
+\BOOKMARK [2][]{subsection.6.2.2}{6.2.2 Metamask Wallet}{section.6.2}% 71
+\BOOKMARK [2][]{subsection.6.2.3}{6.2.3 Transaction Structure}{section.6.2}% 72
+\BOOKMARK [2][]{subsection.6.2.4}{6.2.4 Installation}{section.6.2}% 73
+\BOOKMARK [0][]{chapter.7}{7 Conclusions and Future Work}{}% 74
+\BOOKMARK [1][]{section.7.1}{7.1 Conclusion}{chapter.7}% 75
+\BOOKMARK [0][]{chapter*.1}{References}{}% 76
