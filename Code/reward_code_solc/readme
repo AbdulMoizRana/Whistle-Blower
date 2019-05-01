@@ -1,0 +1,32 @@
+you need to do the following things to run this project.
+Follow the steps
+
+1.    create new folder (name whatever you want)
+2.    go to the folder and open terminal
+3.    run this command "npm init" this will create package.jason files
+
+Install following dependencies by running
+
+-----------------------Solidity Compiler Install Command-------------------
+
+npm install --save solc@0.4.17
+
+
+
+------------------------For Local Ethereum Network-------------------------
+
+
+npm install --save mocha ganache-cli
+
+
+
+------------------------For web3 Package-----------------------------------
+
+npm install --save web3@1.0.0-beta.37
+
+#glove glove trade punch potato love tomato tray area employ just pet
+
+
+------------------------For hdwalled provider------------------------------
+
+npm install --save truffle-hdwallet-provider@0.0.3
